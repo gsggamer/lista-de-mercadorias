@@ -9,5 +9,6 @@ function add() {
     list.appendChild(item);
     item.innerHTML = "<strong>Item " + indice + ":</strong> " + input.value;
 
+    input.value = "";
     indice++;
 }
