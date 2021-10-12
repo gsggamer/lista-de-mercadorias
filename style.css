@@ -36,3 +36,7 @@ li {
     padding: 7px;
     font-size: 15pt;
 }
+
+button:active {
+    background-color: azure;
+}
